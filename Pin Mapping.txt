@@ -1,0 +1,92 @@
+PIN MAPPING OCTAL 
+
+Quad SPI Memory X
+CLK -	PE10 (differs on disco board, check pin mapping) 
+nCS - 	PE11 
+IO0 - 	PE12
+IO1 -	PE13
+IO2 - 	PE14
+IO3 -	PE15
+
+SPI Memory X
+CS - PE9 
+MISO - PE14
+MOSI - PE15
+CLK - PE13
+
+USB X
+D- - PA11 
+D+ - PA12
+VBUS Sense - PD11
+
+Memory LCD (NEEDS VERIFICATION)
+CS - PC11
+MOSI - PE15
+CLK - PE13
+EXTCOMIN - PE0
+
+Memory LCD Driver TPS61222 X
+EN - PB4
+
+Bluetooth (NEEDS VERIFICATION)
+CS - PE8
+MISO -  PB14
+MOSI - PB15
+CLK - PB10 
+IRQ - PB11 (PROB SHOULD CHANGE THIS ON FINAL REV TO ITS OWN INTERRUPT LANE)
+RST - PE1
+
+Buttons (NEEDS VERIFICATION)
+Button 1 - PA4
+Button 2 -		PD12
+Button 3 -			PC8
+Button 4 -				PA15
+Button 5 -					PD7
+Button 6 - PA5
+Button 7 -		PA0
+Button 8 -			PC7
+Button 9 -				PA10
+Button 10 —					PD6
+Button 11 — PA6
+Button 12 —		PA1
+Button 13 —			PC6
+Button 14 —				PA9
+Button 15 —					PD5
+Button 16 — PA7
+Button 17 —		PA2
+Button 18 —			PD15
+Button 19 —				PA8
+Button 20 —					PD4
+Button 21 — PC4
+Button 22 — 	PD10
+Button 23 —			PD14
+Button 24 —				PC9
+Button 25 —					PD3
+Button 26 — PC5
+Button 27 —		PD9
+Button 28 —			PD13
+Button 29 —				PE2
+Button 30 —					PD2
+Button 31 — PB0
+Button 32 —		PA0
+Button 33 —			PC0
+Button 34 —				PE3
+Button 35 —					PD1
+Button 36 — PB1
+Button 37 —		PB13
+Button 38 —			PC1
+Button 39 —				PE4
+Button 40 —					PD0
+Button 41 — PB2
+Button 42 — 	PB12
+Button 43 —			PC2
+Button 44 —				PE5
+Button 45 —					PC12
+Button 46 — PE7
+Button 47 — 	PA3
+Button 48 —			PC3
+Button 49 —				PE6
+Button 50 —					PC10
+
+
+
